@@ -8,6 +8,9 @@ The aim of this project, is to know how to improve the quality of MRI brain imag
 ![An example of an MRI Brain image](MRI_Brain_Image_Example.jpg)
 
 # Preprocessing steps
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 ### 1. Standardize images by resizing them
 - The idea here is to iterate all the images in our dataset using **os.listdir()**, this function returns the list of files and subdirectories present in the given directory.
 - Than, for each each image read with **Image.open** function, we resize it using **resize** function of an **Image** object from **PIL** library
@@ -25,8 +28,12 @@ The aim of this project, is to know how to improve the quality of MRI brain imag
   - The first one is the **Supervised Segmentation**, where some prior knowledge, possibly from human input, is used to guide the algorithm.
   - The second approch is the **Unsupervised Segmentation**, where no prior knowledge is required. These algorithms attempt to subdivide images into meaningful regions automatically. The user may still be able to tweak certain settings to obtain desired outputs.
 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 ### 3. Image equalization [[Paper link]](https://arxiv.org/ftp/arxiv/papers/2003/2003.06615.pdf)
 - Using **RMSHE : Recursive Mean Separated Histogram Equalization**
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ### 4. Splitting dataset (trainset - testset) 
 
