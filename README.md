@@ -13,6 +13,8 @@ The aim of this project, is to know how to improve the quality of MRI brain imag
 - Than, for each each image read with **Image.open** function, we resize it using **resize** function of an **Image** object from **PIL** library
 - We store all the resized images in **./resized** folder
 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 ### 2. Brain Tissue segmentation [[Paper link]](https://www.researchgate.net/publication/339708961_Conventional_and_Deep_Learning_Methods_for_Skull_Stripping_in_Brain_MRI)
 - The inclusion of non‐brain tissue parts in brain region like (skull, dura mater,etc.) can lead to incorrect decision making
 - Thus, brain segmentation, also recognized as brain extraction or skull stripping is a critical step for a neuroimaging diagnostic system
