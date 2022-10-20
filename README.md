@@ -9,9 +9,10 @@ The aim of this project, is to know how to improve the quality of MRI brain imag
 - Than, for each each image read with **Image.open** function, we resize it using **resize** function of an **Image** object from **PIL** library
 - We store all the resized images in **./resized** folder
 
-### 2. Image equalization (https://arxiv.org/ftp/arxiv/papers/2003/2003.06615.pdf)
+### 2. Brain Tissue segmentation
+
+### 3. Image equalization (https://arxiv.org/ftp/arxiv/papers/2003/2003.06615.pdf)
 - Using **RMSHE : Recursive Mean Separated Histogram Equalization**
 
-### 3. Brain Tissue segmentation
 ### 4. Splitting dataset (trainset - testset) 
 
