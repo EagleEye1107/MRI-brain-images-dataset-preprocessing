@@ -17,11 +17,11 @@ The aim of this project, is to know how to improve the quality of MRI brain imag
 - The inclusion of non‐brain tissue parts in brain region like (skull, dura mater,etc.) can lead to incorrect decision making
 - Thus, brain segmentation, also recognized as brain extraction or skull stripping is a critical step for a neuroimaging diagnostic system
 - Now let's talk a little bit about **Image Segmentation**
-#### 2.1. Image Segmentation [[medium article]](https://towardsdatascience.com/image-segmentation-using-pythons-scikit-image-module-533a61ecc980)
-- Image Segmentation is essentially the process of partitioning a digital image into multiple segments to simplify and/or change the representation of an image into something that is more meaningful and easier to analyze.
-- There are two approches for image segmentation
-- The first one is the **Supervised Segmentation**, where some prior knowledge, possibly from human input, is used to guide the algorithm.
-- The second approch is the **Unsupervised Segmentation**, where no prior knowledge is required. These algorithms attempt to subdivide images into meaningful regions automatically. The user may still be able to tweak certain settings to obtain desired outputs.
+  #### 2.1. Image Segmentation [[medium article]](https://towardsdatascience.com/image-segmentation-using-pythons-scikit-image-module-533a61ecc980)
+  - Image Segmentation is essentially the process of partitioning a digital image into multiple segments to simplify and/or change the representation of an image into something that is more meaningful and easier to analyze.
+  - There are two approches for image segmentation
+  - The first one is the **Supervised Segmentation**, where some prior knowledge, possibly from human input, is used to guide the algorithm.
+  - The second approch is the **Unsupervised Segmentation**, where no prior knowledge is required. These algorithms attempt to subdivide images into meaningful regions automatically. The user may still be able to tweak certain settings to obtain desired outputs.
 
 ### 3. Image equalization [[Paper link]](https://arxiv.org/ftp/arxiv/papers/2003/2003.06615.pdf)
 - Using **RMSHE : Recursive Mean Separated Histogram Equalization**
