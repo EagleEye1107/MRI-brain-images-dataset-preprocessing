@@ -17,7 +17,7 @@ The aim of this project, is to know how to improve the quality of MRI brain imag
 - The inclusion of non‐brain tissue parts in brain region like (skull, dura mater,etc.) can lead to incorrect decision making
 - Thus, brain segmentation, also recognized as brain extraction or skull stripping is a critical step for a neuroimaging diagnostic system
 
-### 3. Image equalization [[Paper link>]](https://arxiv.org/ftp/arxiv/papers/2003/2003.06615.pdf)
+### 3. Image equalization [[Paper link]](https://arxiv.org/ftp/arxiv/papers/2003/2003.06615.pdf)
 - Using **RMSHE : Recursive Mean Separated Histogram Equalization**
 
 ### 4. Splitting dataset (trainset - testset) 
