@@ -10,7 +10,8 @@ The aim of this project, is to know how to improve the quality of MRI brain imag
 - We store all the resized images in **./resized** folder
 
 ### 2. Image equalization (https://arxiv.org/ftp/arxiv/papers/2003/2003.06615.pdf)
-- Using RMSHE : Recursive Mean Separated Histogram Equalization
+- Using **RMSHE : Recursive Mean Separated Histogram Equalization**
+
 ### 3. Brain Tissue segmentation
 ### 4. Splitting dataset (trainset - testset) 
 
