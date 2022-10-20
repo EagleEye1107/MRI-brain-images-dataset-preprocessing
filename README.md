@@ -27,6 +27,7 @@ The aim of this project, is to know how to improve the quality of MRI brain imag
   - There are two approches for image segmentation
   - The first one is the **Supervised Segmentation**, where some prior knowledge, possibly from human input, is used to guide the algorithm.
   - The second approch is the **Unsupervised Segmentation**, where no prior knowledge is required. These algorithms attempt to subdivide images into meaningful regions automatically. The user may still be able to tweak certain settings to obtain desired outputs.
+  
   ![image segmentation](image segmentation.png)
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
