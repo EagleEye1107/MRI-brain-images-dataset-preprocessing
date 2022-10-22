@@ -51,7 +51,7 @@ The aim of this project, is to know how to improve the quality of MRI brain imag
     - Transform the image using
     - The algorithm normalizes the brightness and increases the contrast of the image.
   - In the exmple below, I performed a Typical Histogram Equalization on an MRI brain image 
-  - <img align="left" src="project_images/img_equ_opencv_f.png">
+<p align="center"><img src="project_images/img_equ_opencv_f.png"></p>
   - But...
 
 
