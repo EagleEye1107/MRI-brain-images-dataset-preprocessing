@@ -46,7 +46,7 @@ The aim of this project, is to know how to improve the quality of MRI brain imag
     - Transform the image using
     - The algorithm normalizes the brightness and increases the contrast of the image.
  
-<img align="left" src="project_images/img_equ_opencv.pngg"><img align="right" src="project_images/img_equ_opencv_hist1.pngg">
+<img align="left" src="project_images/img_equ_opencv.png"><img align="right" src="project_images/img_equ_opencv_hist1.png">
 
 - Using **RMSHE : Recursive Mean Separated Histogram Equalization**
 
