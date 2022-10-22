@@ -5,7 +5,9 @@ Brain MRIs demonstrate superior soft‐tissue contrast, high spatial resolution,
 
 The aim of this project, is to know how to improve the quality of MRI brain images by preprocessing them and prepare the dataset for Machine Learning &amp; Data Mining process.
 
-![An example of an MRI Brain image](MRI_Brain_Image_Example.jpg)
+<p align="center">
+  <img src="MRI_Brain_Image_Example.jpg">
+</p>
 
 # Preprocessing steps
 
