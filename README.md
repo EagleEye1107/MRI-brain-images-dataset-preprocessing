@@ -49,7 +49,7 @@ The aim of this project, is to know how to improve the quality of MRI brain imag
 
     - The left side of each image/hist represent the original image, the right side is the result after OpenCV Histogram Equalization
 
-- Using **RMSHE : Recursive Mean Separated Histogram Equalization**
+  #### 3.2. Using **RMSHE : Recursive Mean Separated Histogram Equalization**
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
