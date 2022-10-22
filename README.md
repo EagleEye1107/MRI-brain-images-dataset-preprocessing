@@ -35,6 +35,8 @@ The aim of this project, is to know how to improve the quality of MRI brain imag
 ### 3. Image Histogram equalization (HE) [[Paper link]](https://arxiv.org/ftp/arxiv/papers/2003/2003.06615.pdf)
 - MRI brain images are low contrast images which make diagnoses difficult, hence better localization of image pixels is required. 
 - Histogram Equalization techniques help to enhance the image so that it gives an improved visual quality and a well defined problem. The contrast and brightness is enhanced in such a way that it does not lose its original information and the brightness is preserved.
+- Through my research, I learned that there are **4 main** approaches for Image Histogram Equalization (all approches are explained in paper linked)
+<img align="center" src="project_images/img_equlization.png">
 - In this project, I implemented two different techniques of Histogram Equlization, the first one, a simple implementation by **OpenCV** library based on **Typical Histogram Equalization** technique, and the second approach will talk about **RMSHE : Recursive Mean Separated Histogram Equalization** 
 
   #### 3.1. cv2.equalizeHist() [[article link]](https://opencv24-python-tutorials.readthedocs.io/en/latest/py_tutorials/py_imgproc/py_histograms/py_histogram_equalization/py_histogram_equalization.html) <img align="right" src="project_images/opencv.png">
