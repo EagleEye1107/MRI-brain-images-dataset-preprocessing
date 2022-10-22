@@ -30,7 +30,7 @@ def circle_points(resolution, center, radius):
 # Exclude last point because a closed path should not have duplicate points
 points = circle_points(96, [128, 128], 128)[:-1]
 
-snake = seg.active_contour(image, points)
+snake = seg.active_contour(image, points, alpha=0.06,beta=0.3)
 fig, ax = image_show(image)
 ax.plot(points[:, 0], points[:, 1], '--r', lw=3)
 ax.plot(snake[:, 0], snake[:, 1], '-b', lw=3)
