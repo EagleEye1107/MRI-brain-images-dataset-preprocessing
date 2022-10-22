@@ -38,7 +38,7 @@ The aim of this project, is to know how to improve the quality of MRI brain imag
 - In this project, I implemented two different techniques of Histogram Equlization, the first one, a simple implementation by **OpenCV** library that use **Typical Histogram Equalization** technique, and the second approach will talk about **RMSHE : Recursive Mean Separated Histogram Equalization** 
 
   #### 3.1. cv2.equalizeHist() [[article link]](https://opencv24-python-tutorials.readthedocs.io/en/latest/py_tutorials/py_imgproc/py_histograms/py_histogram_equalization/py_histogram_equalization.html)
-  - OpenCV ![opencv](project_images/opencv.png) has a function to do HE called **cv2.equalizeHist()**
+  - ![opencv](project_images/opencv.png) has a function to do HE called **cv2.equalizeHist()**
   - The function equalizes the histogram of the input image using the following algorithm:
     - Calculate the histogram.
     - Normalize the histogram so that the sum of histogram bins is 255.
