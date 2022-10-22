@@ -47,6 +47,8 @@ The aim of this project, is to know how to improve the quality of MRI brain imag
     - The algorithm normalizes the brightness and increases the contrast of the image.
   - In the exmple below, I performed a Typical Histogram Equalization on an MRI brain image 
   - <img align="left" src="project_images/img_equ_opencv_f.png">
+  - But...
+
 
   #### 3.2. Using **RMSHE : Recursive Mean Separated Histogram Equalization**
 
