@@ -45,7 +45,6 @@ The aim of this project, is to know how to improve the quality of MRI brain imag
     - Compute the integral of the histogram.
     - Transform the image using
     - The algorithm normalizes the brightness and increases the contrast of the image.
-
     - <img align="left" src="project_images/img_equ_opencv_f.png">
 
     - The left side of each image/hist represent the original image, the right side is the result after OpenCV Histogram Equalization
