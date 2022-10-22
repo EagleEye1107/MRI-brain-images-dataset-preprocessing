@@ -40,7 +40,7 @@ The aim of this project, is to know how to improve the quality of MRI brain imag
   <img src="project_images/img_equlization.png">
 </p>
 
-- In this project, I implemented two different techniques of Histogram Equlization, the first one, a simple implementation by **OpenCV** library based on **Typical Histogram Equalization** technique, and the second approach will talk about **RMSHE : Recursive Mean Separated Histogram Equalization** 
+- In this project, I was interested in two different approches to implement, the first one, a simple implementation by **OpenCV** library based on **Typical Histogram Equalization** technique, and the second approach will talk about **RMSHE : Recursive Mean Separated Histogram Equalization** 
 
   #### 3.1. cv2.equalizeHist() [[article link]](https://opencv24-python-tutorials.readthedocs.io/en/latest/py_tutorials/py_imgproc/py_histograms/py_histogram_equalization/py_histogram_equalization.html) <img align="right" src="project_images/opencv.png">
   - OpenCV has a function to do HE called **cv2.equalizeHist()**
@@ -52,7 +52,10 @@ The aim of this project, is to know how to improve the quality of MRI brain imag
     - Transform the image using
     - The algorithm normalizes the brightness and increases the contrast of the image.
   - In the exmple below, I performed a Typical Histogram Equalization on an MRI brain image 
-<p align="center"><img src="project_images/img_equ_opencv_f.png"></p>
+<p align="center">
+  <img src="project_images/img_equ_opencv_f.png">
+</p>
+
   - But...
 
 
