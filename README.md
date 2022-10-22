@@ -22,7 +22,7 @@ The aim of this project, is to know how to improve the quality of MRI brain imag
 - The inclusion of non‐brain tissue parts in brain region like (skull, dura mater,etc.) can lead to incorrect decision making
 - Thus, brain segmentation, also recognized as brain extraction or skull stripping is a critical step for a neuroimaging diagnostic system
 - Now let's talk a little bit about **Image Segmentation**
-  #### 2.1. Image Segmentation [[medium article]](https://towardsdatascience.com/image-segmentation-using-pythons-scikit-image-module-533a61ecc980)
+  #### 2.1. Image Segmentation [[Medium article]](https://towardsdatascience.com/image-segmentation-using-pythons-scikit-image-module-533a61ecc980)
   - Image Segmentation is essentially the process of partitioning a digital image into multiple segments to simplify and/or change the representation of an image into something that is more meaningful and easier to analyze.
   - There are two approches for image segmentation
   - The first one is the **Supervised Segmentation**, where some prior knowledge, possibly from human input, is used to guide the algorithm.
@@ -32,7 +32,18 @@ The aim of this project, is to know how to improve the quality of MRI brain imag
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-### 3. Image equalization [[Paper link]](https://arxiv.org/ftp/arxiv/papers/2003/2003.06615.pdf)
+### 3. Image Histogram equalization (HE) [[Paper link]](https://arxiv.org/ftp/arxiv/papers/2003/2003.06615.pdf)
+- MRI brain images are low contrast images which make diagnoses difficult, hence better localization of image pixels is required. 
+- Histogram Equalization techniques help to enhance the image so that it gives an improved visual quality and a well defined problem. The contrast and brightness is enhanced in such a way that it does not lose its original information and the brightness is preserved.
+- In this project, I implemented two different techniques of Histogram Equlization, the first one, a simple implementation by **OpenCV** library that use **Typical Histogram Equalization** technique, and the second approach will talk about **RMSHE : Recursive Mean Separated Histogram Equalization** 
+
+  #### 3.1. cv2.equalizeHist() ![article link](https://opencv24-python-tutorials.readthedocs.io/en/latest/py_tutorials/py_imgproc/py_histograms/py_histogram_equalization/py_histogram_equalization.html)
+  - OpenCV has a function to do HE called **cv2.equalizeHist()**. The function equalizes the histogram of the input image using the following algorithm:
+    - Calculate the histogram.
+    - Normalize the histogram so that the sum of histogram bins is 255.
+    - Compute the integral of the histogram.
+    - Transform the image using
+    - The algorithm normalizes the brightness and increases the contrast of the image.
 - Using **RMSHE : Recursive Mean Separated Histogram Equalization**
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
