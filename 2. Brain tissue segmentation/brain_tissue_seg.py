@@ -1,11 +1,11 @@
 ''''
-    1. Input image
-    2. Convert image to grayscale (it is already)
-    3. Convert image to binary image by tresholding
-    4. Find contours of all the objects on the image
-    5. Find the longest contour, cuz it will always represent the brain contour
-    6. Create the brain mask depending on brain contour
-    7. Apply the brain mask on the original image to extract brain from it
+    0. Input image
+    1. Convert image to grayscale (it is already)
+    2. Convert image to binary image by tresholding
+    3. Find contours of all the objects on the image
+    4. Find the longest contour, cuz it will always represent the brain contour
+    5. Create the brain mask depending on brain contour
+    6. Apply the brain mask on the original image to extract brain from it
 
     And that's how brain extraction is performed
 '''
