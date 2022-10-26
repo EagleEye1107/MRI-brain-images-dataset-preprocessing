@@ -1,6 +1,6 @@
 ''''
     0. Input image
-    1. Convert image to grayscale (it is already)
+    1. Convert image to grayscale (it is already), & blur the image to denoise
     2. Convert image to binary image by tresholding
     3. Find contours of all the objects on the image
     4. Find the longest contour, cuz it will always represent the brain contour
