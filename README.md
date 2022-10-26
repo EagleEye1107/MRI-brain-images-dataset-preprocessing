@@ -28,6 +28,30 @@ The aim of this project, is to know how to improve the quality of MRI brain imag
   <img src="brain_extraction.png">
 </p>
 
+  #### 2.1. Convert image to grayscale & blur the image to denoise
+<p align="center">
+  <img src="project_images/brain_extraction/step1.png">
+</p>
+
+  #### 2.2. Convert image to binary image by tresholding
+<p align="center">
+  <img src="project_images/brain_extraction/step2.png">
+</p>
+
+  #### 2.3. Find contours of all the objects on the image
+
+  #### 2.4. Find the longest contour
+<p align="center">
+  <img src="project_images/brain_extraction/step3.png">
+</p>
+
+  #### 2.5. Create the brain mask
+
+  #### 2.6. Apply the brain mask on the original image to extract brain from it
+<p align="center">
+  <img src="project_images/brain_extraction/step4.png">
+</p>
+
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ### 3. Image Histogram equalization (HE) [[Paper link]](https://arxiv.org/ftp/arxiv/papers/2003/2003.06615.pdf)
