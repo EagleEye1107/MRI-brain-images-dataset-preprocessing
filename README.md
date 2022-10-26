@@ -20,18 +20,10 @@ The aim of this project, is to know how to improve the quality of MRI brain imag
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-### 2. Brain Tissue segmentation (Brain extraction) [[Paper link]](https://www.researchgate.net/publication/339708961_Conventional_and_Deep_Learning_Methods_for_Skull_Stripping_in_Brain_MRI)
-- The inclusion of non‐brain tissue parts in brain region like (skull, dura mater,etc.) can lead to incorrect decision making
-- Thus, brain segmentation, also recognized as brain extraction or skull stripping is a critical step for a neuroimaging diagnostic system
-- Now let's talk a little bit about **Image Segmentation**
-
-  #### 2.1. Image Segmentation [[Medium article]](https://towardsdatascience.com/image-segmentation-using-pythons-scikit-image-module-533a61ecc980)
-  - Image Segmentation is essentially the process of partitioning a digital image into multiple segments to simplify and/or change the representation of an image into something that is more meaningful and easier to analyze.
-  - There are two approaches for image segmentation
-  - The first one is the **Supervised Segmentation**, where some prior knowledge, possibly from human input, is used to guide the algorithm.
-  - The second approch is the **Unsupervised Segmentation**, where no prior knowledge is required. These algorithms attempt to subdivide images into meaningful regions automatically. The user may still be able to tweak certain settings to obtain desired outputs.
-  
-  ![image segmentation](image_seg.png)
+### 2. Brain Tissue segmentation (Brain extraction) [[Article link]](https://www.hindawi.com/journals/ijbi/2017/9749108/)
+- The inclusion of non‐brain tissue parts in brain region like (skull, dura mater,etc.) can lead to incorrect decision making. Thus, brain segmentation, also recognized as brain extraction or skull stripping is a critical step for a neuroimaging diagnostic system.
+- Brain tissue segmentation from MRI images, isn't that easy to implement... I've read a good article talking about [[Image Analysis for MRI Based Brain Tumor Detection and Feature Extraction]](https://www.hindawi.com/journals/ijbi/2017/9749108/), where the author explained steps of **Skull Stripping** process.
+- Now let's talk a little bit about **Basic Image Segmentation**
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -45,7 +37,7 @@ The aim of this project, is to know how to improve the quality of MRI brain imag
 
 - In this project, I was interested in two different approaches to implement, the first one, a simple implementation by **OpenCV** library based on **Typical Histogram Equalization** technique, and the second approach will talk about **RMSHE : Recursive Mean Separated Histogram Equalization** 
 
-  #### 3.1. HE : Typical Histogram Equalization (performed by cv2.equalizeHist()) [[article link]](https://opencv24-python-tutorials.readthedocs.io/en/latest/py_tutorials/py_imgproc/py_histograms/py_histogram_equalization/py_histogram_equalization.html) <img align="right" src="project_images/opencv.png">
+  #### 3.1. HE : Typical Histogram Equalization (performed by cv2.equalizeHist()) [[Article link]](https://opencv24-python-tutorials.readthedocs.io/en/latest/py_tutorials/py_imgproc/py_histograms/py_histogram_equalization/py_histogram_equalization.html) <img align="right" src="project_images/opencv.png">
   - OpenCV has a function to do HE called **cv2.equalizeHist()**
   - This method usually increases the global contrast of many images to get an enhanced output, especially when the usable data of the image is represented by close contrast values.
   - The function equalizes the histogram of the input image using the following algorithm:
