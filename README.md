@@ -70,7 +70,7 @@ The aim of this project, is to know how to improve the quality of MRI brain imag
   - Then for each point (x,y) of the outline of the brain, take each point (x',y') of our image where it is located in the brain tissue (without crossing the contours) as explained below:
 
 <p align="center">
-  <img src="project_images/brain_extraction/Split_the_brain_image.png">
+  <img src="project_images/brain_extraction/brain_extraction_logic.png">
 </p>
 
   - Finally, we create the brain mask:
