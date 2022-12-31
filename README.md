@@ -61,18 +61,23 @@ The aim of this project, is to know how to improve the quality of MRI brain imag
 
 
   #### The idea behind the fifth step (Creating the Brain Mask) :
-  is to split our image of (256px, 256px) into four parts (based on the center of the image coordinates (128,128)) as shown in the following example:
-  <p align="center">
-    <img src="project_images/brain_extraction/Split_the_brain_image.png">
-  </p>
-  Then for each point (x,y) of the outline of the brain, take each point (x',y') of our image where it is located in the brain tissue (without crossing the contours) as explained below:
-  <p align="center">
-    <img src="project_images/brain_extraction/Split_the_brain_image.png">
-  </p>
-  Finally, we create the brain mask:
-  <p align="center">
-    <img src="project_images/brain_extraction/Create_the_brain_mask.png">
-  </p>
+  - Is to split our image of (256px, 256px) into four parts (based on the center of the image coordinates (128,128)) as shown in the following example:
+
+<p align="center">
+  <img src="project_images/brain_extraction/Split_the_brain_image.png">
+</p>
+
+  - Then for each point (x,y) of the outline of the brain, take each point (x',y') of our image where it is located in the brain tissue (without crossing the contours) as explained below:
+
+<p align="center">
+  <img src="project_images/brain_extraction/Split_the_brain_image.png">
+</p>
+
+  - Finally, we create the brain mask:
+
+<p align="center">
+  <img src="project_images/brain_extraction/Create_the_brain_mask.png">
+</p>
   
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
