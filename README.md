@@ -6,7 +6,7 @@ Brain MRIs demonstrate superior soft‐tissue contrast, high spatial resolution,
 The aim of this project, is to know how to improve the quality of MRI brain images by preprocessing them and prepare the dataset for Machine Learning &amp; Data Mining process.
 
 <p align="center">
-  <img src="MRI_Brain_Image_Example.jpg">
+  <img src="project_images/MRI_Brain_Image_Example.jpg">
 </p>
 
 # Preprocessing steps
@@ -25,32 +25,55 @@ The aim of this project, is to know how to improve the quality of MRI brain imag
 - Brain tissue segmentation from MRI images, isn't that easy to implement... I've read a good article talking about [Image Analysis for MRI Based Brain Tumor Detection and Feature Extraction](https://www.hindawi.com/journals/ijbi/2017/9749108/), where the author explained the steps of **Skull Stripping** process.
 - Based on these Skull stripping steps, I made my own steps for **Brain Extraction from MRI images** :
 <p align="center">
-  <img src="brain_extraction.png">
+  <img src="project_images/brain_extraction/brain_extraction.png">
 </p>
 
-  #### 2.1. Convert image to grayscale & blur the image to denoise
+  #### 2.1. Convert image to grayscale & blur the image to denoise 
 <p align="center">
   <img src="project_images/brain_extraction/step1.png">
 </p>
 
-  #### 2.2. Convert image to binary image by tresholding
+  #### 2.2. Convert image to binary image (black : 0, white : 1) by tresholding
+  - Use a treshold to specify which pixel range will represent the value of 0 (black pixel) and which pixel range will represent the value of 1 (white pixel)
 <p align="center">
   <img src="project_images/brain_extraction/step2.png">
 </p>
 
   #### 2.3. Find contours of all the objects on the image
-
-  #### 2.4. Find the longest contour
 <p align="center">
   <img src="project_images/brain_extraction/step3.png">
 </p>
 
-  #### 2.5. Create the brain mask
-
-  #### 2.6. Apply the brain mask on the original image to extract brain from it
+  #### 2.4. Find the longest contour (because it represents the brain contour)
 <p align="center">
   <img src="project_images/brain_extraction/step4.png">
 </p>
+
+  #### 2.5. Create the brain mask
+<p align="center">
+  <img src="project_images/brain_extraction/step5.png">
+</p>
+
+  #### 2.6. Apply the brain mask on the original image to extract brain from it
+<p align="center">
+  <img src="project_images/brain_extraction/step6.png">
+</p>
+
+
+  #### The idea behind the fifth step (Creating the Brain Mask) :
+  is to split our image of (256px, 256px) into four parts (based on the center of the image coordinates (128,128)) as shown in the following example:
+  <p align="center">
+    <img src="project_images/brain_extraction/Split_the_brain_image.png">
+  </p>
+  Then for each point (x,y) of the outline of the brain, take each point (x',y') of our image where it is located in the brain tissue (without crossing the contours) as explained below:
+  <p align="center">
+    <img src="project_images/brain_extraction/Split_the_brain_image.png">
+  </p>
+  Finally, we create the brain mask:
+  <p align="center">
+    <img src="project_images/brain_extraction/Create_the_brain_mask.png">
+  </p>
+  
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
