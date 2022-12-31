@@ -23,6 +23,11 @@ The aim of this project, is to know how to improve the quality of MRI brain imag
 ### 2. Brain Tissue segmentation (Brain extraction) [[Article link]](https://www.hindawi.com/journals/ijbi/2017/9749108/)
 - The inclusion of non‐brain tissue parts in brain region like (skull, dura mater,etc.) can lead to incorrect decision making. Thus, brain segmentation, also recognized as brain extraction or skull stripping is a critical step for a neuroimaging diagnostic system.
 - Brain tissue segmentation from MRI images, isn't that easy to implement... I've read a good article talking about [Image Analysis for MRI Based Brain Tumor Detection and Feature Extraction](https://www.hindawi.com/journals/ijbi/2017/9749108/), where the author explained the steps of **Skull Stripping** process.
+
+<p align="center">
+  <img src="project_images/brain_extraction/brain_extraction_example.png">
+</p>
+
 - Based on these Skull stripping steps, I made my own steps for **Brain Extraction from MRI images** :
 <p align="center">
   <img src="project_images/brain_extraction/brain_extraction.png">
@@ -116,5 +121,9 @@ The aim of this project, is to know how to improve the quality of MRI brain imag
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-### 4. Splitting dataset (trainset - testset) 
+### 4. Gamma Correction
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+### 5. Splitting dataset (trainset - testset) 
 
