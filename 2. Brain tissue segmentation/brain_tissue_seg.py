@@ -48,6 +48,11 @@ plt.show()
 
 # Find contours at a constant value of 0 = Black
 contours = skimage.measure.find_contours(binary_mask, 0)
+fig, ax = plt.subplots()
+plt.imshow(binary_mask, cmap=plt.cm.gray)
+for i in range(25) :
+    plt.plot(contours[i][:, 1], contours[i][:, 0], linewidth=2)
+plt.show()
 # Longest contour = brain contour
 index_brain_contour = longest(contours)
 fig, ax = plt.subplots()
@@ -81,6 +86,10 @@ for x in contour:
             y[128:x[1]] = [True for c in y[128:x[1]]]
 
 # print(brain_mask)
+fig, ax = plt.subplots()
+plt.imshow(brain_mask, cmap=plt.cm.gray)
+# plt.plot(contours[index_brain_contour][:, 1], contours[index_brain_contour][:, 0], linewidth=2)
+plt.show()
 
 # apply the brain mask to select the brain
 selection = im.copy()
