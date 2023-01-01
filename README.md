@@ -28,7 +28,7 @@ The aim of this project, is to know how to improve the quality of MRI brain imag
   <img src="project_images/brain_extraction/brain_extraction_example.png">
 </p>
 
-- Based on these Skull stripping steps, I made my own steps for **Brain Extraction from MRI images** :
+- I got inspired by these Skull stripping steps to make my own **Brain Extraction from MRI images** steps :
 <p align="center">
   <img src="project_images/brain_extraction/brain_extraction.png">
 </p>
@@ -104,7 +104,7 @@ The aim of this project, is to know how to improve the quality of MRI brain imag
     - Calculate the histogram.
     - Normalize the histogram so that the sum of histogram bins is 255.
     - Compute the integral of the histogram.
-    - Transform the image using
+    - Transform the image
     - The algorithm normalizes the brightness and increases the contrast of the image.
   - In the exmple below, I performed a Typical Histogram Equalization on an MRI brain image 
 <p align="center">
@@ -112,7 +112,7 @@ The aim of this project, is to know how to improve the quality of MRI brain imag
 </p>
 
 - **HE** approach equalizes the intensity values to full range of the histogram to get an enhanced output. It increases the brightness and contrast of each pixel giving rise to dynamic range expansion
-- **But**, it does not consider the mean brightness of the input image into account, will gives rise to flattening of the output image histogram, false coloring, annoying artifacts in background, unnatural enhancement, excessive change in brightness, most importantly decreasing the contrast and no brightness preservation.
+- **But**, it does not consider the mean brightness of the input image into account, it gives rise to flattening of the output image histogram, false coloring, annoying artifacts in background, unnatural enhancement, excessive change in brightness, most importantly decreasing the contrast and no brightness preservation.
 - To solve that, I needed to partition the input picture histogram into multiple sub-parts using the average intensity of the pixels.
 - More precisely, I did it **Recusively => RMSHE**.
 
