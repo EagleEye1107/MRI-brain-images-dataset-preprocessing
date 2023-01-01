@@ -143,5 +143,5 @@ The aim of this project, is to know how to improve the quality of MRI brain imag
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-### 5. Splitting dataset (trainset - valset - testset) : using the [[splitfolders library]] (https://pypi.org/project/split-folders/) 
+### 5. Splitting dataset (trainset - valset - testset) : using the [[splitfolders library]](https://pypi.org/project/split-folders/) 
 
