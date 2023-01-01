@@ -22,7 +22,7 @@ def longest(lst):
    return ind
 
 
-im = cv2.imread('MRI_Brain_Image_Example.jpg')
+im = cv2.imread('project_images/MRI_Brain_Image_Example.jpg')
 # calculate mean value from RGB channels and flatten to 1D array
 vals = im.mean(axis=2).flatten()
 # plot histogram with 255 bins

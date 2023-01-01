@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 import matplotlib.pyplot as plt
 
-img = cv2.imread('segmented_image.png',0)
+img = cv2.imread('project_images/segmented_image.png',0)
 equ = cv2.equalizeHist(img)
 res = np.hstack((img,equ))
 cv2.imwrite('project_images/img_equ_opencv.png',equ)

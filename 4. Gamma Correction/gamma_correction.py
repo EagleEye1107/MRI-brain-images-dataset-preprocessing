@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 
 
-img = cv2.imread('img_equ_opencv.png')
+img = cv2.imread('project_images/img_equ_opencv.png')
 
 
 # 4th preprocessing : Gamma correction --------------------------
@@ -17,7 +17,7 @@ def gammaCorrection(src, gamma):
 gammaImg = gammaCorrection(img, 2.2)
 # ---------------------------------------------------------------
 
-cv2.imshow('Original image', img)
+# cv2.imshow('Original image', img)
 cv2.imshow('Gamma corrected image', gammaImg)
 cv2.imwrite('project_images/img_equ_gamma_opencv.png',gammaImg)
 cv2.waitKey(0)
