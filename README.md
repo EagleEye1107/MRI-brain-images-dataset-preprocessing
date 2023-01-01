@@ -117,7 +117,7 @@ The aim of this project, is to know how to improve the quality of MRI brain imag
 - More precisely, I did it **Recusively => RMSHE**.
 
 
-  #### 3.2. RMSHE : Recursive Mean Separated Histogram Equalization
+  #### 3.2. RMSHE : Recursive Mean Separated Histogram Equalization [I will add it soon]
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
