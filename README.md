@@ -121,8 +121,25 @@ The aim of this project, is to know how to improve the quality of MRI brain imag
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-### 4. Gamma Correction
+### 4. Gamma Correction [[Article link]](https://lindevs.com/apply-gamma-correction-to-an-image-using-opencv)
+- Cerebral Brain MRI images contain parts that can look either too light or too dark. Gamma correction is a method that allows us to control the brightness of an image. The formula used to get a gamma corrected image is given below:
+<p align="center">
+  <img src="project_images/gamma_corr_formula.png">
+</p>
 
+- Where I : is the input pixel value [0, 255]
+- O : is the output pixel value [0, 255]
+- Gamma that controls image brightness:
+  - Gamme < 1 => the image will be darker
+  - Gamma > 1 => the image will be lighter
+  - Gamma = 1 => no effect
+
+
+- I implemented Gamma correction using lookup table (LUT) from OpenCV, which performs a lookup table transform, example :
+
+<p align="center">
+  <img src="project_images/gamma_corr.png">
+</p>
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ### 5. Splitting dataset (trainset - testset) 
