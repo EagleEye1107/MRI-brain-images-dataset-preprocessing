@@ -140,7 +140,8 @@ The aim of this project, is to know how to improve the quality of MRI brain imag
 <p align="center">
   <img src="project_images/gamma_corr.png">
 </p>
+
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-### 5. Splitting dataset (trainset - testset) 
+### 5. Splitting dataset (trainset - valset - testset) : using the [[splitfolders library]] (https://pypi.org/project/split-folders/) 
 
